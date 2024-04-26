@@ -1,0 +1,29 @@
+.input-label {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    color: #C5C7CA;
+}
+
+.forgot-password {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    text-align: right;
+    color: #C5C7CA;
+}
+
+.input-field {
+    border: 1.5px solid #35373B;
+    background: #27292D;
+    border-radius: 4px;
+    height: 42px;
+    color: white;
+    margin-top: 8px;
+    & input {
+        background: #27292D;
+        color: white;
+    }
+}
