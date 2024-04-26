@@ -1,0 +1,30 @@
+.post-root {
+    width: 700px;
+    height: 223px;
+    padding: 24px;
+    margin-top: 12px;
+    border: 2px solid #35373B;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #C5C7CA;
+    text-align: left;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: #7F8084;
+    text-align: left;
+}
