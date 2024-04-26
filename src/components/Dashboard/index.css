@@ -1,0 +1,24 @@
+.dashboard-root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131319;
+    flex-direction: column;
+}
+
+.hello-text {
+    color: #C5C7CA;
+    margin-top: 60px;
+    margin-bottom: 12px;
+}
+
+.greeting {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7F8084;
+    margin-bottom: 28px;
+}
