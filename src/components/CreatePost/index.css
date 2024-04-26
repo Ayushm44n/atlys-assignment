@@ -1,0 +1,29 @@
+.create-post-root {
+    width: 700px;
+    /* height: 223px; */
+    padding: 24px;
+    height: fit-content;
+    border: 2px solid #35373B;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+    color: #C5C7CA;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    & button {
+        width: 111px;
+        height: 43px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.36px;
+    }
+}
