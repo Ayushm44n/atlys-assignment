@@ -16,7 +16,9 @@ function App() {
           <Switch>
             <Route path="/login" exact component={Login} />
             <Route path="/dashboard" exact component={Dashboard} />
-            <Redirect path="/login" />
+            <Route exact path="/">
+              <Redirect to="/dashboard" />
+            </Route>
           </Switch>
         </Router>
     </div>
